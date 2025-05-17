@@ -29,7 +29,7 @@ export default function Footer() {
     <Box
       component="footer"
       sx={{
-        bgcolor: "#0033A0",
+        bgcolor: "#0072CE",
         color: "white",
         pt: 8,
         pb: 4,
@@ -42,7 +42,7 @@ export default function Footer() {
               <Logo />
             </Box>
             <Typography variant="body1" sx={{ mb: 3 }}>
-              Empowering Cameroonian students with AI-powered educational tools for Mathematics and Chemistry.
+              Empowering Cameroonian students with AI-powered educational tools for Mathematics Physics,Chemistry and other Science subjects.
             </Typography>
             <Box sx={{ display: "flex", gap: 2 }}>
               <IconLink icon={<FacebookIcon />} href="#" />
@@ -110,7 +110,7 @@ export default function Footer() {
             <Box sx={{ display: "flex", flexDirection: "column", gap: 1.5 }}>
               <ContactItem icon={<EmailIcon />} text="info@quantstrike.com" />
               <ContactItem icon={<PhoneIcon />} text="+237 123 456 789" />
-              <ContactItem icon={<LocationOnIcon />} text="Yaoundé, Cameroon" />
+              <ContactItem icon={<LocationOnIcon />} text="Kumba, Cameroon" />
             </Box>
           </Grid>
         </Grid>
